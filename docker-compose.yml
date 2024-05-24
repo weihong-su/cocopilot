@@ -8,5 +8,6 @@ services:
         dockerfile: Dockerfile
     volumes:
       - ./config.json:/app/config.json
+      - /root/cocopilot:/app
     ports:
-        - "8181:8181"
+        - "8080:8080"
